@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">test123</string>
+    <string name="sans">Ini text sans</string>
+    <string name="serif">Ini text Serif</string>
+    <string name="monospace">Ini text Monospace</string>
+    <string name="normal">Ini text Normal</string>
+
+    <string name="bold">Ini text Bold</string>
+    <string name="italic">Ini text Italic</string>
+    <string name="normal_txt">Ini text Normal</string>
+
+    <string name="size14">Ini text 14sp</string>
+    <string name="size16">Ini text 16sp</string>
+    <string name="size20">Ini text 20sp</string>
+    <string name="size32">Ini text 32sp</string>
+
+</resources>
