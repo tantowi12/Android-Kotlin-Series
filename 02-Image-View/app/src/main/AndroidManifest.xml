@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.test123">
+    package="com.example.a02_image_view">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditText"></activity>
-        <activity android:name=".Utama" />
-        <activity android:name=".Home" />
-        <activity android:name=".TextSize" />
-        <activity android:name=".TextStyle" />
+        <activity android:name=".FitXY"></activity>
+        <activity android:name=".FitStart" />
+        <activity android:name=".FitEnd" />
+        <activity android:name=".FitCenter" />
+        <activity android:name=".Matrix" />
+        <activity android:name=".IvCenterInside" />
+        <activity android:name=".IvCenterCrop" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
