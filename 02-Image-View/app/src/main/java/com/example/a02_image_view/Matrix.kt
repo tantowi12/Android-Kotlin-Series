@@ -7,19 +7,19 @@ import android.widget.Button
 
 class Matrix : AppCompatActivity() {
 
-    private lateinit var button: Button
+    private lateinit var button3: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_matrix)
 
-        button = findViewById(R.id.btnBack2)
-        button.setOnClickListener {
+        button3 = findViewById(R.id.btnBack2)
+        button3.setOnClickListener {
             startActivity(Intent(this, IvCenterInside::class.java))
         }
 
-        button = findViewById(R.id.btnNext3)
-        button.setOnClickListener {
+        button3 = findViewById(R.id.btnNext3)
+        button3.setOnClickListener {
             startActivity(Intent(this, FitCenter::class.java))
         }
     }
