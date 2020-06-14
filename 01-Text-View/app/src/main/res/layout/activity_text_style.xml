@@ -56,6 +56,14 @@
             android:textSize="20dp"
             android:textStyle="italic"/>
 
+        <Button
+            android:id="@+id/btnBack1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="back" />
+
     </LinearLayout>
 
 </LinearLayout>
