@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Image View dengan Scale Type 'Fit Center'"
+        android:text="Image View Dengan Scale Type 'Fit Center'"
         android:textSize="25sp"
         android:textStyle="bold"
         android:gravity="center"
