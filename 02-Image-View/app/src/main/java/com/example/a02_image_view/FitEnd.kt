@@ -7,19 +7,19 @@ import android.widget.Button
 
 class FitEnd : AppCompatActivity() {
 
-    private lateinit var button5: Button
+    private lateinit var button: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fit_end)
 
-        button5 = findViewById(R.id.btnBack4)
-        button5.setOnClickListener {
+        button = findViewById(R.id.btnBack4)
+        button.setOnClickListener {
             startActivity(Intent(this, FitCenter::class.java))
         }
 
-        button5 = findViewById(R.id.btnNext5)
-        button5.setOnClickListener {
+        button = findViewById(R.id.btnNext5)
+        button.setOnClickListener {
             startActivity(Intent(this, FitStart::class.java))
         }
     }

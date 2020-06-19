@@ -46,8 +46,6 @@
             android:gravity="center"
             android:text="next"/>
 
-
-
     </LinearLayout>
 
 </LinearLayout>

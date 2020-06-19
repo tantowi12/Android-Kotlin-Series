@@ -7,19 +7,19 @@ import android.widget.Button
 
 class IvCenterCrop : AppCompatActivity() {
 
-    private lateinit var button1: Button
+    private lateinit var button: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_iv_center_crop)
 
-        button1 = findViewById(R.id.btnBack)
-        button1.setOnClickListener {
+        button = findViewById(R.id.btnBack)
+        button.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
 
-        button1 = findViewById(R.id.btnNext1)
-        button1.setOnClickListener {
+        button = findViewById(R.id.btnNext1)
+        button.setOnClickListener {
             startActivity(Intent(this,IvCenterInside::class.java))
         }
     }
